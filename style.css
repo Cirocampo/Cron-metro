@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+}
+
+#container{
+    width: 221vh;
+    text-align: center;
+}
+
+header{
+    background-color: orange;   
+    color: white;
+    padding: 10px;
+}
+
+.but{
+    padding: 15px 35px;
+    background-color: orange;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.but:hover{
+    padding: 15px 35px;
+    background-color: orangered;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+#sec{
+    min-height: 100px;
+    font-size: 70px;
+}
